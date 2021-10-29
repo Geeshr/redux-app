@@ -1,0 +1,62 @@
+.counter {
+  margin: 5rem auto;
+  width: 40rem;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #33333D;
+  box-sizing: border-box;
+  border: 0 solid #d2d6dc;
+}
+
+.counterNumber {
+  color: #4fc7ef;
+  margin: 15px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.value {
+  font-size: 2rem;
+  color: #9e9e9e;;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+
+
+.addButton {
+  background: transparent;
+  font-size: 70px;
+  width: 50%;
+  border: 1px solid white;
+}
+
+.increment {
+  border-right: none;
+}
+.decrement {
+  border-left: none;
+}
+
+
+.addFive {
+  background: transparent;
+  font-size: 70px;
+  width: 50%;
+  border: 1px solid white;
+}
+
+.increaseFive{
+  border-left: none;
+  border-bottom: none;
+}
+
+.decreaseFive{
+  border-right: none;
+  border-bottom: none;
+}
+
+.toggleButton {
+  display: flex;
+  justify-content: flex-end;
+}
