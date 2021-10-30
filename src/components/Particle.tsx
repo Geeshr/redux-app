@@ -5,29 +5,12 @@ import {useSelector, RootStateOrAny} from 'react-redux';
 
 const Particle = () => {
   const counter = useSelector( (state: RootStateOrAny) => state.counter);
-  // const particlesInit = (main :any) => {
-  //  console.log(main);
-  // you can initialize the tsParticles instance (main) here,
-  // adding custom shapes or presets
-  //  };
-
-  //  const particlesLoaded = (container :any) => {
-  //   console.log(container);
-  // };
   return (
     <Particles
       id="tsparticles"
-      // init={particlesInit}
-      //  loaded={particlesLoaded}
       options={{
-        /* background: {
-          color: {
-            value: '#0d47a1',
-          },
-        },*/
         fpsLimit: 60,
         interactivity: {
-          // detectsOn: 'canvas',
           events: {
             onClick: {
               enable: true,
@@ -39,21 +22,6 @@ const Particle = () => {
             },
             resize: true,
           },
-          /* modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
-            },
-            push: {
-              quantity: 10,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },*/
         },
         particles: {
           color: {
