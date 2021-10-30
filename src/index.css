@@ -23,3 +23,7 @@ button:active {
   background-color:rgb(141, 140, 140);
   border-color: #b9b4b4;
 }
+
+#tsparticles {
+	position: fixed;
+}
