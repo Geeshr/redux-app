@@ -1,7 +1,7 @@
 import React from 'react';
 import {useSelector, useDispatch, RootStateOrAny} from 'react-redux';
 
-import {counterActions} from '../store';
+import {counterActions} from '../store/CounterStore';
 import './Counter.css';
 const Counter = () => {
   const dispatch = useDispatch();
@@ -42,7 +42,6 @@ const Counter = () => {
         <button
           onClick={clearHandler}>Clear All</button>
       </div>
-
       <h1>Redux Counter</h1>
       {show && <div
         className='counterNumber'>
